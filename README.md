@@ -76,3 +76,5 @@ We use a **Mock API Provider** approach. The worker logs simulated calls to an e
 - **DLQ Management UI:** Better visibility into jobs that failed all retries.
 - **Real-time Stats:** Websocket integration for dashboard updates.
 - **Multi-tenant Support:** Per-merchant configuration for discrepancy thresholds.
+
+## Loom Video: https://www.loom.com/share/cdb9cb970d034e3ea0a3eb2b3562132d

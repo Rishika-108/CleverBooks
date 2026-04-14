@@ -1,6 +1,11 @@
+import '../config/env.js';
+import connectDB from '../config/db.js';
 import { Worker } from 'bullmq';
 import { redisConnection } from './queueService.js';
 import Notification from '../models/Notification.js';
+
+// Initialize Database Connection
+connectDB();
 
 /**
  * Point 12: External Notification API Choice
